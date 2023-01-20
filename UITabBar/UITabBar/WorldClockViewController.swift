@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WorldClockViewController.swift
 //  UITabBar
 //
 //  Created by Mikhail Chuparnov on 20.01.2023.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WorldClockViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemGray6
     }
 
-
 }
-

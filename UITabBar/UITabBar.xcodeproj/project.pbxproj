@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		FDC5519E297AA0010073FFD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5519D297AA0010073FFD6 /* AppDelegate.swift */; };
 		FDC551A0297AA0010073FFD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5519F297AA0010073FFD6 /* SceneDelegate.swift */; };
-		FDC551A2297AA0010073FFD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC551A1297AA0010073FFD6 /* ViewController.swift */; };
 		FDC551A7297AA0020073FFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC551A6297AA0020073FFD6 /* Assets.xcassets */; };
 		FDC551AA297AA0020073FFD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC551A8297AA0020073FFD6 /* LaunchScreen.storyboard */; };
+		FDC551B2297AA0EB0073FFD6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC551B1297AA0EB0073FFD6 /* TabBarController.swift */; };
+		FDC551B4297AA13D0073FFD6 /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC551B3297AA13D0073FFD6 /* WorldClockViewController.swift */; };
+		FDC551B6297AA16F0073FFD6 /* AlarmClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC551B5297AA16F0073FFD6 /* AlarmClockViewController.swift */; };
+		FDC551B8297AA1960073FFD6 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC551B7297AA1960073FFD6 /* StopwatchViewController.swift */; };
+		FDC551BA297AA1BF0073FFD6 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC551B9297AA1BF0073FFD6 /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FDC5519A297AA0010073FFD6 /* UITabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC5519D297AA0010073FFD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC5519F297AA0010073FFD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FDC551A1297AA0010073FFD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDC551A6297AA0020073FFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDC551A9297AA0020073FFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDC551AB297AA0020073FFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC551B1297AA0EB0073FFD6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FDC551B3297AA13D0073FFD6 /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
+		FDC551B5297AA16F0073FFD6 /* AlarmClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockViewController.swift; sourceTree = "<group>"; };
+		FDC551B7297AA1960073FFD6 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		FDC551B9297AA1BF0073FFD6 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				FDC5519D297AA0010073FFD6 /* AppDelegate.swift */,
 				FDC5519F297AA0010073FFD6 /* SceneDelegate.swift */,
-				FDC551A1297AA0010073FFD6 /* ViewController.swift */,
 				FDC551A6297AA0020073FFD6 /* Assets.xcassets */,
 				FDC551A8297AA0020073FFD6 /* LaunchScreen.storyboard */,
 				FDC551AB297AA0020073FFD6 /* Info.plist */,
+				FDC551B1297AA0EB0073FFD6 /* TabBarController.swift */,
+				FDC551B3297AA13D0073FFD6 /* WorldClockViewController.swift */,
+				FDC551B5297AA16F0073FFD6 /* AlarmClockViewController.swift */,
+				FDC551B7297AA1960073FFD6 /* StopwatchViewController.swift */,
+				FDC551B9297AA1BF0073FFD6 /* TimerViewController.swift */,
 			);
 			path = UITabBar;
 			sourceTree = "<group>";
@@ -134,9 +146,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC551A2297AA0010073FFD6 /* ViewController.swift in Sources */,
+				FDC551B2297AA0EB0073FFD6 /* TabBarController.swift in Sources */,
 				FDC5519E297AA0010073FFD6 /* AppDelegate.swift in Sources */,
 				FDC551A0297AA0010073FFD6 /* SceneDelegate.swift in Sources */,
+				FDC551BA297AA1BF0073FFD6 /* TimerViewController.swift in Sources */,
+				FDC551B4297AA13D0073FFD6 /* WorldClockViewController.swift in Sources */,
+				FDC551B8297AA1960073FFD6 /* StopwatchViewController.swift in Sources */,
+				FDC551B6297AA16F0073FFD6 /* AlarmClockViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
